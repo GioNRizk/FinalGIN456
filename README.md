@@ -6,4 +6,6 @@ Guiding applicants to the appropriate rooms:gio charbel
 Asking basic questions to streamline initial recruitment stages:georges joseph
 Assessing applicant with a short quiz:joseph georges
 Dismissing applicants when the interview concludes:charbel charbel
+
+
 LINK VIDEO ON ONEDRIVE:https://netusekedu-my.sharepoint.com/:f:/g/personal/gionassif_y_rizk_net_usek_edu_lb/Enw2kYKIi1tMsdfZYT-QEzUBps2WseuHNlcJteGjBvWcSQ?e=ChjbbG
