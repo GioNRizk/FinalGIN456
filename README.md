@@ -1,5 +1,5 @@
 # FinalGIN456
-This repository contains the final report and final presentation and all the implementation related to Pepper as a HR assistant designed to support supervisors by taking over basic tasks, allowing them to focus on more critical responsibilities. 
+This repository contains the final report and final presentation and all the implementation related to Pepper as an HR assistant designed to support supervisors by taking over basic tasks, allowing them to focus on more critical responsibilities. 
 Pepper's duties include:
 
 -Greeting applicants warmly upon arrival:Gio Nassif Rizk
