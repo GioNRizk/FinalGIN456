@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>USEK HR - Showroom</title>
+    <script src="/libs/qi/2/qi.js"></script>
+    <script src="../js/jquery.js"></script>
+    <script src="../js/qievents.js"></script>
+    <script src="../js/displayinfo.js"></script>
+    <link rel="stylesheet" href="../css/greeting.css" />
+    <style>
+      .showroom-image {
+        max-width: 70%;
+        max-height: 60%;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar">
+      <img src="../pics/unilogo.jpg" alt="USEK Logo" class="logo" />
+      <div class="nav-title">HR Management</div>
+    </nav>
+
+    <main class="showroom">
+      <div class="showroom-content">
+        <h1 class="showroom-title">Discover Our Workspace</h1>
+        <p class="showroom-subtitle">Innovation Meets Comfort</p>
+        <p class="showroom-description">
+          Step into a modern, dynamic environment designed to inspire
+          creativity, foster collaboration, and empower our team to achieve
+          extraordinary results. Our workspace is more than just an office –
+          it's a hub of innovation and growth.
+        </p>
+        <div class="button-container">
+          <button
+            onclick="raiseConfirmationEvent('ExplainProcess')"
+            class="button1"
+          >
+            Explain Process
+          </button>
+          <button onclick="raiseConfirmationEvent('StartQuiz')" class="button1">
+            Start Interview
+          </button>
+        </div>
+      </div>
+      <div>
+        <img
+          src="../pics/meetingroomm.png"
+          alt="USEK HR Workspace"
+          class="showroom-image"
+        />
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-content">© 2024 USEK HR Management</div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="/libs/qi/2/qi.js"></script>
+    <script src="../js/all.js"></script>
+    <script src="../js/qievents.js"></script>
+    <script src="../js/vars.js"></script>
+    <script src="../js/index.js"></script>
+    <script src="../js/jquery.js"></script>
+    <script src="../js/help.js"></script>
+    <link rel="stylesheet" href="../css/questions.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>USEK HR - Welcome Candidates</title>
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <img src="../pics/unilogo.jpg" alt="USEK Logo" class="logo" />
+      <div class="nav-title">Technical Quiz</div>
+    </nav>
+
+    <main class="hero">
+      <div class="hero-content">
+        <div class="question-container">
+          <div class="question">
+            <h2>3.What is the programming language developed by Oracle</h2>
+            <button
+              class="answer-button"
+              onclick="raiseConfirmationEvent('ans1q3')"
+              id="ans1q3"
+            >
+              1.Java
+            </button>
+            <button
+              class="answer-button"
+              onclick="raiseConfirmationEvent('ans2q3')"
+              id="ans2q3"
+            >
+              2.C++
+            </button>
+            <button
+              class="answer-button"
+              onclick="raiseConfirmationEvent('ans3q3')"
+              id="ans3q3"
+            >
+              3.C#
+            </button>
+            <button
+              class="answer-button"
+              onclick="raiseConfirmationEvent('ans4q3')"
+              id="ans4q3"
+            >
+              4.Kotlin
+            </button>
+          </div>
+        </div>
+        <img
+          src="../pics/oracle.jpg"
+          alt="Question 2 Image"
+          class="hero-image"
+        />
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-content">© 2024 Computer Engineering Quiz</div>
+    </footer>
+  </body>
+</html>

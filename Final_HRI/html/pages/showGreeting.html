@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="/libs/qi/2/qi.js"></script>
+    <script src="../js/jquery.js"></script>
+    <script src="../js/qievents.js"></script>
+    <script src="../js/displayinfo.js"></script>
+    <link rel="stylesheet" href="../css/greeting.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>USEK HR - Welcome Candidates</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="nav-title">HR Management</div>
+    </nav>
+
+    <main class="hero">
+      <div class="hero-content">
+        <h1 class="hero-title">Welcome to HR Department</h1>
+        <p class="hero-subtitle">Your Career Journey Begins Here</p>
+        <!--p class="hero-description">
+          Our HR team is dedicated to finding passionate individuals who can
+          transform our organization. We're not just looking for employees;
+          we're seeking future leaders, innovators, and change-makers.
+        </p>-->
+        <div class="button-container">
+          <button
+            onclick="raiseConfirmationEvent('JobInterview')"
+            class="button1"
+          >
+            Job Interview
+          </button>
+          <button
+            onclick="raiseConfirmationEvent('SomethingElse')"
+            class="button1"
+          >
+            Something Else
+          </button>
+        </div>
+      </div>
+      <div class="hero-image-container">
+        <img
+          src="../pics/intro.png"
+          alt="USEK HR Interview"
+          class="hero-image"
+        />
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-content">© 2024 USEK HR Management</div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #ffffff;
+  color: #333;
+  padding: 20px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.navbar {
+  background: #001f3f;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  height: 100px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  background: white;
+  padding: 5px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.nav-title {
+  font-size: 28px;
+  color: white;
+  text-transform: uppercase;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 15px;
+  flex: 1;
+  max-height: 800px;
+  overflow-y: auto;
+}
+
+.hero-content {
+  flex: 1;
+  min-width: 300px;
+}
+
+.hero-title {
+  font-size: 32px;
+  font-weight: bold;
+  color: #001f3f;
+}
+
+.hero-subtitle {
+  font-size: 18px;
+  color: #495057;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.hero-description {
+  font-size: 16px;
+  color: #6c757d;
+  line-height: 1.4;
+  margin-top: 10px;
+}
+
+.hero-image-container {
+  flex: 1;
+  text-align: center;
+  min-width: 600px;
+}
+
+.hero-image {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.button1 {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 25px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #001f3f;
+  border: none;
+  border-radius: 15px;
+  border-color: #fff;
+  box-shadow: 0 9px #8b8b8b;
+  margin-right: 20px;
+}
+
+.button1:hover {
+  background-color: white;
+  color: black;
+}
+
+.button1:active {
+  background-color: #0e3ab3;
+  transform: translateY(4px);
+}
+
+.footer {
+  background: #001f3f;
+  color: white;
+  text-align: center;
+  padding: 25px;
+  height: 100px;
+}
+
+.footer-content {
+  font-size: 16px;
+}

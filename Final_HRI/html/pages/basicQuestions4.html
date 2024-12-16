@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>USEK HR - Welcome Candidates</title>
+  <script src="/libs/qi/2/qi.js"></script>
+  <script src="../js/jquery.js"></script>
+  <script src="../js/qievents.js"></script>
+  <script src="../js/displayinfo.js"></script>
+  <link rel="stylesheet" href="../css/allStyle.css" />
+<body>
+  <nav class="navbar">
+    <img src="../pics/unilogo.jpg" alt="USEK Logo" class="logo" />
+    <div class="nav-title">HR Management</div>
+  </nav>
+  <main class="hero">
+    <div class="hero-content">
+      <h1 class="hero-title">Let's get to know you more!</h1>
+
+      <ul>
+        <li>What is your full name?</li>
+        <li>What is your email address?</li>
+        <li class="active">What degree are you pursuing?</li>
+        <li>Are you applying for the software engineering job?</li>
+        <li>Do you have experience in this field?</li>
+      </ul>
+      <button onclick="raiseConfirmationEvent('cs')">Computer Science</button>
+      <button onclick="raiseConfirmationEvent('ce')">
+        Computer Engineering
+      </button>
+      <button onclick="raiseConfirmationEvent('se')">Software Engineering</button>
+      <button onclick="raiseConfirmationEvent('other')" class="button1">
+        Other
+      </button>
+    </div>
+
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-content">© 2024 USEK HR Management</div>
+  </footer>
+</body>
+
+</html>
