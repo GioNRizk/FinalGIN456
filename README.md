@@ -4,13 +4,13 @@ Pepper's duties include:
 
 -Greeting applicants warmly upon arrival:Gio Nassif Rizk
 
--Guiding applicants to the appropriate rooms:Gio Nassif Rizk ,Charbel Hage
+-Guiding applicants to the appropriate rooms:Gio Nassif Rizk ,Charbel Hajj
 
 -Asking basic questions to streamline initial recruitment stages:Georges Mansour , Joseph Mattar
  
 -Assessing applicant with a short quiz:Joseph Mattar ,Georges Mansour
 
--Dismissing applicants when the interview concludes:Charbel Hage ,Charbel Daoud
+-Dismissing applicants when the interview concludes:Charbel Hajj ,Charbel Daoud
 
 
 LINK VIDEO ON ONEDRIVE:https://netusekedu-my.sharepoint.com/:f:/g/personal/gionassif_y_rizk_net_usek_edu_lb/Enw2kYKIi1tMsdfZYT-QEzUBps2WseuHNlcJteGjBvWcSQ?e=ChjbbG
